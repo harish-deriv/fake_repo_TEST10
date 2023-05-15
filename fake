@@ -7,7 +7,7 @@ DD_AGENT_MAJOR_VERSION=7
 DD_API_KEY=9086ce7f8296fc5d210afa05563da8e7 
 DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_mac_os.sh)"
 
-
+SLACK_TOKEN=xapp-1-A057MBBVD8V-5262342518322-8df9558bb7ec1648c4ebeb492e5680694fe9f2d6c97c2b5e3ab0ab156040b547
 
 #Invalid CRED KEY FOR TESTINGs
 #FAKE CHANGE 12
