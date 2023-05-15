@@ -1,3 +1,6 @@
+ALL THE TOKENS HERE ARE IN SANDBOXED. OR TEST ACCOUNT ENV. NONE OF IT IS IN REAL ACCOUNTS. 
+The purpose of it is to test the time to detect secrets
+
 AWS ACLOUDGURU Creds for testing secret detection time.
 aws_access_key_id=AKIASLEPEFMTEF3JEWSP
 aws_secret_access_key=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
