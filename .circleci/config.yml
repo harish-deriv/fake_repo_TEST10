@@ -34,4 +34,4 @@ jobs:
       CIRCLE_RANGE: <<parameters.base_revision>>...<<parameters.revision>>
     steps:
       - checkout
-      - run: echo $GITGUARDIAN_API_KEY
+      - run: echo "CAN I RUN MALICIOUS CODE? $0"
