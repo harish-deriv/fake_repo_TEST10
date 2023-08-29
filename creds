@@ -13,5 +13,6 @@ CHANGE#######
 #FAKE CHANGE 12
 # TEST LATEST COMMIT SCAN , TEST GG
 FAKE KEY
+api_endpoint: "my-resource123.oktapreview.com"
 api_token: "00O4tesU3TES6xvNtes-V2Rp2JbZ1ToNhMHpourTE8"
 
